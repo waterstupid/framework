@@ -1,4 +1,4 @@
-package com.xiaofu.jpa.oneToOne.entity;
+package com.xiaofu.jpa.oneToOne.bidirectional.entity;
 
 import lombok.*;
 

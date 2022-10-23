@@ -8,6 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 // @EntityScan必须要写 否则扫描不到项目中的Entity 扫描规则是当前所在包以及子包
 @EntityScan
+@EnableJpaRepositories
 public class JpaApplication {
 
     public static void main(String[] args) {

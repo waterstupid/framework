@@ -1,4 +1,4 @@
-package com.xiaofu.jpa.oneToOne.entity;
+package com.xiaofu.jpa.oneToOne.bidirectional.entity;
 
 import lombok.*;
 
@@ -25,7 +25,7 @@ public class PersonEntity {
     @Column(name = "name", nullable = false)
     private String name;
 
-    @OneToOne(mappedBy = "person1")
+    @OneToOne(mappedBy = "person")
     private HeadEntity head;
 
 }

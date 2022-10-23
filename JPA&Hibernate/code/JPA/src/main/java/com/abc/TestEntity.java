@@ -1,6 +1,5 @@
 package com.abc;
 
-import com.xiaofu.jpa.oneToOne.entity.PersonEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
